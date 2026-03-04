@@ -38,3 +38,5 @@ target_sources(code_03_wrapping_shaders_buffers PRIVATE ${COMMON_FILES})
 
 # Organize them into a virtual folder in the IDE
 source_group(TREE ${CMAKE_CURRENT_SOURCE_DIR}/shaders PREFIX "shaders" FILES ${COMMON_FILES})
+
+target_copy_shaders(code_03_wrapping_shaders_buffers)

@@ -40,3 +40,5 @@ target_sources(code_04_robotic_arm_transformations PRIVATE ${COMMON_FILES})
 
 # Organize them into a virtual folder in the IDE
 source_group(TREE ${CMAKE_CURRENT_SOURCE_DIR}/shaders PREFIX "shaders" FILES ${COMMON_FILES})
+
+target_copy_shaders(code_04_robotic_arm_transformations)
